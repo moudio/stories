@@ -5,9 +5,9 @@
 <div class="form-container">
 <%= form_for(@signup, html: {class: "signup-form"}) do |f| %>
 <%= f.label :firstname %>
-<%=f.text_field :firstname %><br>
+<%=f.text_field :firstname, :required=> true %><br>
 <%= f.label :email %>
-<%=f.text_field :email %><br>
+<%=f.email_field :email, :required => true %><br>
 <%= f.submit "Join" %>
 <%end%>
 </div>

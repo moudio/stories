@@ -17,10 +17,10 @@
 //= require_tree .
 
 document.querySelector('.menu-icon').addEventListener('click', function () {
-  console.log('hello');
   document.querySelector('.menu-sidebar').classList.add('slide-in');
   console.log(document.querySelector('.menu-sidebar'));
 });
+
 document.querySelector('.close-icon').addEventListener('click', function () {
   document.querySelector('.menu-sidebar').classList.remove('slide-in');
 });

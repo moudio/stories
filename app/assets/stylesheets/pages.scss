@@ -1,0 +1,23 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.create-stories-header {
+    background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    text-align: right;
+    width: 80%;
+    margin: 0 auto;
+}
+header .header-content p {
+    font-size: 50px;
+}

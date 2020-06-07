@@ -42,11 +42,14 @@ header .header-content p {
     height: 100vh;
     position: absolute;
     z-index: 9999;
-    color: white;
     top: 0;
     left: -250px;
     transition: left 0.2s ease-in-out;
 
+}
+.menu-sidebar li a {
+    text-decoration: none;
+    color: white
 }
 
 .slide-in {
@@ -91,9 +94,27 @@ left: 0;
 
 .about-header {
     height: 700px;
-
     background-image: url('https://images.unsplash.com/photo-1559561875-d6cd07308063?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
     background-position: center;
     background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.btn {
+    padding: 0;
 }
 

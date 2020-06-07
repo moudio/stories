@@ -2,7 +2,9 @@
     <header class="create-stories-header">
     <div class="header-content">
     <p>Create and share Stories</p>
-    <%= button_tag "Learn More", type: 'button', class: 'btn btn-info'%>
+    <%= button_tag  type: 'button', class: 'btn btn-info' do %>
+        <%link_to "Learn More", about_path%>
+    <%end%>
     </div>
  </header>  
   <div class="supporting-section">
@@ -14,7 +16,9 @@
     </div>
     <div class="discover">
         <h2>Discover stories</h2>
-        <%= button_tag 'Discover stories', type: 'button', class: 'btn btn-info'%>
+        <%= button_tag  type: 'button', class: 'btn btn-info' do %>
+        <%link_to "Learn More", about_path%>
+        <%end%>
     </div>
 
 </main>

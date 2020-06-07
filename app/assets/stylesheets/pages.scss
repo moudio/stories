@@ -1,17 +1,19 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.create-stories-header {
+
+header.create-stories-header {
     background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
-}
-header {
-    display: flex;
+    color: white;
+    display: flex ;
     align-items: center;
+    position: relative;
 }
+
 
 .header-content {
     text-align: right;
@@ -20,4 +22,48 @@ header {
 }
 header .header-content p {
     font-size: 50px;
+}
+
+.menu-icon {
+    color: white;
+    position: absolute;
+    top:30px; 
+    left: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu-sidebar {
+    width:200px;
+    background: black; 
+    height: 100vh;
+    position: absolute;
+    z-index: 9999;
+    color: white;
+    top: 0;
+    left: -200px;
+    transition: left 0.5s ease-in-out;
+    
+}
+
+.slide-in {
+left: 0;
+}
+
+.menu-sidebar ul {
+    list-style-type: none;
+}
+
+.menu-sidebar ul li {
+    margin: 20px 0; 
+    font-size: 20px;
+}
+
+.close-icon {
+    position: absolute;
+    color: white;
+    right: 10px; 
+    top: 10px;
+    font-size: 30px;
+    cursor: pointer;
 }

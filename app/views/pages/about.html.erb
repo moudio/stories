@@ -4,5 +4,7 @@
 <div class="supporting-section">
     <h2>No more sorting through photos</h2>
     <p>Stories automatically finds your best photos and creates a new travelogue. This way you can capture and share your special moments in fresh new ways.</p>
-    <%= button_tag "Signup", type:"button", class:"btn btn-lg btn-info"%>
+    <%= button_tag type:"button", class:"btn btn-lg btn-info" do %>
+    <%= link_to "Signup", new_signup_path %>
+    <%end%>
 </div>

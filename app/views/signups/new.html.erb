@@ -1,0 +1,14 @@
+<div class="signup-header">
+<div class="signup-content">
+<h1>Get the latest updates from Stories</h1>
+</div>
+<div class="form-container">
+<%= form_for(@signup, html: {class: "signup-form"}) do |f| %>
+<%= f.label :firstname %>
+<%=f.text_field :firstname %><br>
+<%= f.label :email %>
+<%=f.text_field :email %><br>
+<%= f.submit "Join" %>
+<%end%>
+</div>
+</div>

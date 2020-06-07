@@ -1,5 +1,7 @@
 {
   "name": "stories",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "sidr": "^2.2.1"
+  }
 }

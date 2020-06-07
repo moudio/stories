@@ -22,8 +22,4 @@ document.querySelector('.menu-icon').addEventListener('click', function () {
 });
 document.querySelector('.close-icon').addEventListener('click', function () {
   document.querySelector('.menu-sidebar').classList.remove('slide-in');
-  //     document.querySelector('.menu-sidebar').style.visibility = 'hidden';
-  //   } else {
-  //     document.querySelector('.menu-sidebar').style.visibility = 'visible';
-  //   }
 });
